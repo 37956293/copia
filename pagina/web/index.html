@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>HOLIXD</title>
+        <style>
+            body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-image: url('img/login_fondo.jpg');
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-color: white;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00ced1;
+}
+
+h1, p {
+    margin: 0;
+}
+    </style>        
+    </head>
+    <body>
+       <div class="form-container">
+        <h1>BIENVENIDO</h1>
+        <p>POR FAVOR INGRESE SU USUARIO Y CONTRASEÑA</p>
+
+        <label for="username">Ingrese su usuario</label>
+        <input type="text" id="username" placeholder="Usuario" required>
+
+        <label for="password">Ingrese su contraseña</label>
+        <input type="password" id="password" placeholder="Contraseña" required>
+
+        <a href="inicio.html">
+            <button type="submit">INGRESAR</button>
+        </a>
+        <br>
+        <br>
+        <br>
+        <a href="empleados.jsp">¿No tienes cuenta?</a>
+      
+      
+       </body>
+</html>
